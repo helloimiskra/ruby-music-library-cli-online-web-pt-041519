@@ -37,6 +37,7 @@ class MusicLibraryController
       play_song
     end
   end
+  end
 
   def list_songs
     # binding.pry
