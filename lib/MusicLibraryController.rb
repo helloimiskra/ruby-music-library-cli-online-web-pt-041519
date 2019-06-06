@@ -22,19 +22,19 @@ class MusicLibraryController
     case user_input
 
     when "list songs"
-      puts list_songs
+      list_songs
     when "list artists"
-      puts list_artists
+      list_artists
     when "list genres"
-      puts list_genres
+      list_genres
     when "list artist"
-      puts list_songs_by_artist
+      list_songs_by_artist
     when "list genre"
-      puts list_songs_by_genre
+      list_songs_by_genre
     when user_input = "play song"
-      puts play_song
+      play_song
     else
-      puts call
+      call
     end
   end
 
