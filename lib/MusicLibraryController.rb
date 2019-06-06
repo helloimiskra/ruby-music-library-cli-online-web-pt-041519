@@ -17,7 +17,7 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
 
-    user_input = gets.strip
+    user_input = gets.chomp
     # if user_input != "exit"
     case user_input
 
@@ -37,7 +37,7 @@ class MusicLibraryController
       puts call
     end
   end
-end
+  end
 
   def list_songs
     # binding.pry
