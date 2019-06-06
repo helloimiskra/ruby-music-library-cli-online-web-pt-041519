@@ -30,13 +30,13 @@ class MusicLibraryController
     elsif "list genres" === user_input
       list_genres
     elsif "list artist" === user_input
-      list_songs_by_artist 
+      list_songs_by_artist
     elsif "list genre" === user_input
       list_songs_by_genre
     elsif "play song" === user_input
       play_song
     else
-      puts "What would you like to do?""
+      puts "What would you like to do?"
     end
   end
   end
