@@ -21,20 +21,22 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = gets.chomp
-    case user_input
+    # case user_input
 
-    when "list songs"
+    if "list songs" === user_input
       list_songs
-    when "list artists"
+    elsif "list artists" === user_input
       list_artists
-    when "list genres"
+    elsif "list genres" === user_input
       list_genres
-    when "list artist"
-      list_songs_by_artist
-    when "list genre"
+    elsif "list artist" === user_input
+      list_songs_by_artist 
+    elsif "list genre" === user_input
       list_songs_by_genre
-    when "play song"
+    elsif "play song" === user_input
       play_song
+    else
+      puts "What would you like to do?""
     end
   end
   end
