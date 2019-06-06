@@ -7,6 +7,8 @@ class MusicLibraryController
   end
 
   def call
+    if user_input != "exit"
+      
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
     puts "To list all of the artists in your library, enter 'list artists'."
@@ -19,22 +21,20 @@ class MusicLibraryController
 
     user_input = gets.strip
 
-    call until user_input = "exit"
-
     if user_input = "list songs"
       list_songs
     elsif user_input = "list artists"
       list_artists
     elsif user_input = "list genres"
-      list_genres
+      ist_genres
     elsif user_input = "list artist"
-      list_songs_by_artist
+      list_songs_by_artist    
     elsif user_input = "list genre"
       list_songs_by_genre
     elsif user_input = "play song"
       play_song
-    else
-      "exit"
+      else
+        "exit"
     end
   end
 end
