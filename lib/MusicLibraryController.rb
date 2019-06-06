@@ -37,7 +37,7 @@ class MusicLibraryController
       play_song
     else
     end
-    end
+
   end
   end
 
