@@ -37,7 +37,6 @@ class MusicLibraryController
       puts call
     end
   end
-  end
 
   def list_songs
     # binding.pry
