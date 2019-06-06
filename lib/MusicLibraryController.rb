@@ -36,7 +36,7 @@ class MusicLibraryController
     elsif "play song" === user_input
       play_song
     else
-      puts "What would you like to do?"
+    end
     end
   end
   end
