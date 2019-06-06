@@ -20,7 +20,7 @@ class MusicLibraryController
     puts "What would you like to do?"
 
     user_input = gets.strip
-    case
+    case user_input
     when "list songs"
       list_songs
     when "list artists"
