@@ -7,7 +7,7 @@ class MusicLibraryController
   end
 
   def call
-    if user_input != "exit"
+    while user_input != "exit"
 
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
